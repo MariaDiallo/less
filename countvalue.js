@@ -1,7 +1,7 @@
-function Countvlaue(table){
+function Countvalue(table){
     var sum=0;
     for(let i=0; i<table.length; i++){
-        if (tab[i]==True) {
+        if (table[i]==true) {
             sum=sum+1;
         }
     }
